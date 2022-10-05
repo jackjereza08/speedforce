@@ -1,0 +1,70 @@
+body{
+    margin-top:20px;
+}
+
+#top{
+    margin-top:80px;
+}
+
+.promenu{
+    color: rgba(255, 0, 0, 0.85);
+}
+
+#imgupload{
+    display:hidden;
+}
+
+#label-profilepic{
+    cursor: pointer;
+}
+
+#upload-img{
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.card{
+    background: rgba(106, 21, 21, 0.80);
+    color: #FFFFFF;
+    padding:6px;
+    border-radius: 10px;
+}
+
+.card1{
+    background: rgb(221, 207, 10);
+    color: #FFFFFF;
+    padding:6px;
+    border-radius: 10px;
+}
+.panel-timeline{
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+
+.panel-timeline:hover{
+    background: rgba(211, 210, 210, 0.527);
+}
+
+#gotopost{
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+
+#gotopost:target{
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+
+.text-btn{
+    color:rgba(175, 175, 175, 0.527);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+.text-btn:hover{
+    color:rgba(126, 126, 126, 0.527);
+}
+.btn-white{
+    background:white;
+}
+
